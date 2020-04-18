@@ -49,9 +49,9 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
+|__(~)    •||•THE - ALI -OFFICAL------•◈•
+|__\~~) •||•SABA - RAJPUT---------------•◈•
+|__(-----\  •◈•------MALANG-GANG--------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
@@ -87,8 +87,8 @@ print  """\033[1;91m=======================================
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "mughal"
+CorrectPassword = "mughal"
 
 loop = 'true'
 while (loop == 'true'):
@@ -152,7 +152,7 @@ def login():
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
-			os.system('rm -rf login.txt')
+			 os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
